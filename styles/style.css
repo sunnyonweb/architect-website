@@ -48,6 +48,18 @@
     justify-content: center;
 }
 
+.btn{
+    background-color: rgba(255, 144, 14, 1);
+    color: #ffffff;
+    border: none;
+    height: 64px;
+    width: 180px;
+    border-radius: 8px;
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
 
 /* shared style end */
 
@@ -59,7 +71,7 @@
 }
 .navbar{
     justify-content: space-between;
-    padding: 0px 10px;
+    
 }
 .nav-link {
     text-decoration: none;
@@ -86,8 +98,29 @@
 
 /* banner style Start */
 
-
-
+.banner-contant{
+    max-width: 862px;
+    height: 225px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 33px;
+    
+}
+.banner-title{
+    text-align: center;
+}
+.banner-text{
+    text-align: center;
+   
+}
+.banner-img{
+    max-width: 1440px;
+    width: 100%;
+    height: 700px;
+}
 
 
 /* banner style End */
