@@ -1,3 +1,6 @@
+
+
+
 /* font area */
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
@@ -120,7 +123,118 @@
     max-width: 1440px;
     width: 100%;
     height: 700px;
+    margin-bottom: 20px;
 }
 
 
 /* banner style End */
+
+/* responsive media banner section start */
+
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .brand {
+    margin: 10px auto 10px auto;}
+    .banner-title {
+    text-align: center;
+}
+.banner-contant{
+    height: 300px;
+}
+.banner-img{
+    
+    width: 90%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+    
+}
+    
+}
+
+
+/* responsive media banner section end */
+
+/* features Section Style Start */
+
+.features{
+    max-width: 1440px;
+    /* width: 100%; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 73px;
+    margin-top: 85px;
+}
+.features-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.features-img img{
+    max-width: 342px;
+    height: 342px;
+}
+.features-contant{
+    height: 305px;
+    width: 537px;
+    text-align: center;
+}
+.features-title-1{
+    font-size: 3rem;
+    font-weight: 500;
+
+}
+.features-title-2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.features-title-3{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.features-text{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+/* features Section responsive style start */
+
+
+@media screen and (max-width: 576px){
+
+    .features{
+        flex-direction: column;
+    }
+    .features-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}
+
+@media screen and (min-width:576px) and (max-width: 1180px){
+
+    .features{
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+
+
+/* features Section responsive style End */
+
+
+
+/* features Section Style End */
+
+
+/* Features 2 section style start */
+
+    
+
+/* Features 2 section style end */
