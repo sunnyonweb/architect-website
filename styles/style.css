@@ -63,6 +63,19 @@
     font-weight: 600;
 }
 
+.section-title{
+    font-family: "Work Sans", sans-serif;
+    color: #131313;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.section-description{
+    font-family: "Work Sans", sans-serif;
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
 
 /* shared style end */
 
@@ -235,6 +248,111 @@
 
 /* Features 2 section style start */
 
-    
+.features-2{
+    display: flex;
+    max-width: 1440px;
+    margin-top: 130px;
+    height: 1060px;
+}
+.features2-contant{
+    margin-right: 54px;
+}
+.features2-contant h2{
+    max-width: 470px;
+    border-left: 5px solid #ff900e;
+    padding-left: 20px;
+}
+.s-d{
+    max-width: 586px;
+}
+.info-part{
+   
+}
+.info{
+    max-width: 586px;
+    max-height: 171px;
+    padding: 30px 42px 30px 30px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-top: 20px;
+}
+.f-img{
+    max-width: 708px;
+    max-height: 982px;
+    margin-left: 92px;
+}
+.f-btn{
+    width: 342px;
+    height: 200px;
+    background-color: #ff900e;
+    color: #ffffff;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    margin-top: -123px;
+}
+.btn-year{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: "Work Sans", sans-serif;
+}
 
 /* Features 2 section style end */
+
+/* fact section style start */
+
+.fact-section{
+    max-width: 1440px;
+    justify-content: center;
+    margin-top: 130px;
+    
+}
+
+.facts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+
+}
+
+#fact-description{
+    max-width: 542px;
+}
+.fact{
+    border: 1px solid rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    width: 242px;
+    height: 242px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fact-number{
+     font-family: "Work Sans", sans-serif;
+    color: #424242;
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 10px 0;
+
+
+}
+.fact-name{
+    
+    font-family: "Work Sans", sans-serif;
+    color: #727272;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    
+    
+}
+
+
+
+/* fact section style start */
